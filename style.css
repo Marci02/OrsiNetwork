@@ -1,0 +1,83 @@
+*{
+    padding: 5px;
+    margin: 0;
+}
+
+#name{
+    text-align: center;
+}
+.about{
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Add your responsive styles here */
+    /* For example, you can modify the layout, font sizes, or hide/show certain elements */
+    body {
+        font-size: 14px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* User Interface Styles */
+/* Add your user interface styles here */
+/* For example, you can modify the colors, fonts, or spacing */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Custom Design */
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+/* Responsive and Interactive Design */
+.content-item {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.content-item:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .content-item {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content-item {
+        width: 100%;
+    }
+}
+
+
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 130px;
+}
+
+
+
+
+
